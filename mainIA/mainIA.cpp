@@ -1,8 +1,9 @@
-#include <iostream>
+#include <iostream> 
 #include <vector>
 using namespace std;
 #include "anak.h"
 #include "ibu.h"
+
 int main() {
 	ibu* varIbu = new ibu("dini");
 	ibu* varibu2 = new ibu("novi");
@@ -18,4 +19,11 @@ int main() {
 	varIbu->cetakAnak();
 	varibu2->cetakAnak();
 
-	delete varI
+	delete varIbu;
+	delete varibu2;
+	delete varAnak1;
+	delete varAnak2;
+	delete varAnak3;
+
+	return 0;
+}
