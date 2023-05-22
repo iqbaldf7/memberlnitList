@@ -17,6 +17,7 @@ public:
 	void cetakDokter();
 };
 
+
 class dokter {
 public:
 	string nama;
